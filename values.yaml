@@ -1,5 +1,4 @@
 service:
-  appName: myappname1
   image:
     repository: ealen/echo-server
     tag: latest
