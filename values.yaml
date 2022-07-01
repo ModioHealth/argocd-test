@@ -7,3 +7,4 @@ service:
   service:
     ports:
       service: 'http-80'
+      other: 'http-81'
