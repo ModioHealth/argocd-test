@@ -7,4 +7,21 @@ service:
   service:
     ports:
       service: 'http-80'
-      other: 'http-81'
+service2:
+  image:
+    repository: ealen/echo-server
+    tag: latest
+  hpa:
+    enabled: true
+  service:
+    ports:
+      service: 'http-80'
+service3:
+  image:
+    repository: ealen/echo-server
+    tag: latest
+  hpa:
+    enabled: true
+  service:
+    ports:
+      service: 'http-80'
