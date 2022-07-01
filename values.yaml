@@ -8,6 +8,7 @@ service:
     ports:
       service: 'http-80'
 service2:
+  appName: item2
   image:
     repository: ealen/echo-server
     tag: latest
@@ -17,6 +18,7 @@ service2:
     ports:
       service: 'http-80'
 service3:
+  appName: item3
   image:
     repository: ealen/echo-server
     tag: latest
