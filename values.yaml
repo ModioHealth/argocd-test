@@ -2,8 +2,6 @@ service:
   image:
     repository: ealen/echo-server
     tag: latest
-  hpa:
-    enabled: true
   service:
     ports:
       service: 'http-80'
@@ -12,8 +10,6 @@ service2:
   image:
     repository: ealen/echo-server
     tag: latest
-  hpa:
-    enabled: true
   service:
     ports:
       service: 'http-80'
@@ -22,8 +18,6 @@ service3:
   image:
     repository: ealen/echo-server
     tag: latest
-  hpa:
-    enabled: true
   service:
     ports:
       service: 'http-80'
