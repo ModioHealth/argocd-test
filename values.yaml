@@ -9,7 +9,7 @@ service2:
   appName: item2
   image:
     repository: ealen/echo-server
-    tag: latest
+    tag: '${IMAGE_TAG_XYZ}'
   service:
     ports:
       service: 'http-80'
