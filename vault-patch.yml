@@ -1,0 +1,12 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: not-important
+spec:
+  template:
+    metadata:
+      annotations:
+        vault.hashicorp.com/agent-inject: 'true'
+        vault.hashicorp.com/role: 'web'
+        vault.hashicorp.com/agent-inject-secret-config: 'secret/data/web'
+        vault.hashicorp.com/agent-init-first: 'true'
