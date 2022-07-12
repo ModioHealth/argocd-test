@@ -9,7 +9,7 @@ dependencies:
   - name: standard-service
     alias: service2
     version: ~2.0.3
-    repository: https://chartmuseum.shared.aws.chgit.com'
+    repository: 'https://chartmuseum.shared.aws.chgit.com'
   - name: standard-service
     alias: service3
     version: ~2.0.3
