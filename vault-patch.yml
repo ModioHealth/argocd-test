@@ -6,6 +6,7 @@ spec:
   template:
     metadata:
       annotations:
+        # https://www.vaultproject.io/docs/platform/k8s/injector/annotations
         vault.hashicorp.com/agent-inject: 'true'
         vault.hashicorp.com/role: 'web'
         vault.hashicorp.com/agent-inject-secret-config: 'secret/data/web'
