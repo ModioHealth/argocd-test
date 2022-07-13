@@ -12,7 +12,7 @@ service2:
   appName: item2
   image:
     repository: ealen/echo-server
-    tag: latest
+    tag: ${IMAGE_TAG_XYZ}
   serviceAccount:
     create:
       enabled: 'true'
@@ -23,7 +23,7 @@ service3:
   appName: item3
   image:
     repository: ealen/echo-server
-    tag: latest
+    tag: <path:dev/data/modio-common#ASSETS_BUCKET_NAME>
   serviceAccount:
     create:
       enabled: 'true'
