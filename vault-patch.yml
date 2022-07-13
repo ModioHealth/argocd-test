@@ -9,5 +9,5 @@ spec:
         # https://www.vaultproject.io/docs/platform/k8s/injector/annotations
         vault.hashicorp.com/agent-inject: 'true'
         vault.hashicorp.com/role: 'example-role1'
-        vault.hashicorp.com/agent-inject-secret-config: 'secret/data/web'
+        vault.hashicorp.com/agent-inject-secret-config: 'secret/dev/modio-common'
         vault.hashicorp.com/agent-init-first: 'true'
