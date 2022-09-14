@@ -9,7 +9,7 @@ service:
     ports:
       service: 'http-80'
 service2:
-  appName: item2-<path:dev/data/modio-common#TEST_TAG>
+  appName: item2
   image:
     repository: ealen/echo-server
     tag: ${IMAGE_TAG_XYZ}
