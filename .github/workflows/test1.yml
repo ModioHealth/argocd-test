@@ -1,0 +1,8 @@
+on: [push]
+
+jobs:
+  test1:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ModioHealth/argocd/.github/workflows/test.yml@master
+    
