@@ -1,9 +1,16 @@
 on:
   push:
     branches:
-      - test
+      - develop
 
 jobs:
-  test1:
-    uses: ModioHealth/argocd/.github/workflows/test.yml@master
+  runs-on: self-hosted
+  steps:
+    - run: |
+        echo running in self hosted
+        whoami
+        pwd
+        ls -l
+  #test1:
+  #  uses: ModioHealth/argocd/.github/workflows/test.yml@master
     
