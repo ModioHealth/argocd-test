@@ -2,7 +2,7 @@ on: workflow_dispatch
 
 jobs:
   nothing:
-    runs-on: [self-hosted, custom-runner]
+    runs-on: custom-runner
     steps:
       - run: |
           pwd
