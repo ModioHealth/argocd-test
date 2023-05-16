@@ -1,0 +1,10 @@
+on: workflow_dispatch
+
+jobs:
+  nothing:
+    runs-on: [custom-runner]
+    steps:
+      - run: |
+          pwd
+          whoami
+          ls -l
