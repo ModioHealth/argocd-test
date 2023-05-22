@@ -1,5 +1,11 @@
-on: workflow_dispatch
-
+on:
+  workflow_dispatch:
+    inputs:
+      sleep:
+        default: '0'
+        type: number
+        description: 'Time to pause'
+        
 jobs:
   nothing:
     runs-on: self-hosted
@@ -8,3 +14,4 @@ jobs:
           pwd
           whoami
           ls -l
+          sleep ${{ inputs.sleep }}
