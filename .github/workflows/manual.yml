@@ -8,7 +8,7 @@ on:
         
 jobs:
   nothing:
-    runs-on: self-hosted
+    runs-on: custom-runner1
     steps:
       - run: |
           pwd
